@@ -2,6 +2,7 @@ package extraerDatos;
 
 /*
     Edison Rivera
+    Estela Chipantasi
  */
 
 public class Juegos {
