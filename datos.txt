@@ -1,0 +1,4 @@
+Mario Kart 64,Carreras,Familiar
+God Of War,Accion,+18
+Mortal Kombat,Peleas,+18
+Resident Evil,Accion,+18
