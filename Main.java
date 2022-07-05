@@ -4,12 +4,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
+/*
+    Edison Rivera
+    Estela Chipantasi
+ */
 
 public class Main {
     public static void main(String[] args) {
         ArrayList<Juegos> juegos = new ArrayList<>();
         int index = 0;
-        try (BufferedReader datosJuegos = new BufferedReader(new FileReader("C:\\Users\\pc\\IdeaProjects\\POO\\src\\extraerDatos\\datos.txt"))){
+        try (BufferedReader datosJuegos = new BufferedReader(new FileReader("datos.txt"))){
             String lineaDato = datosJuegos.readLine();
             while (lineaDato != null){
                 String[] datosObjeto = lineaDato.split(",");
